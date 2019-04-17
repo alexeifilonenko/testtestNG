@@ -10,25 +10,26 @@ public class APIClientTest {
 
     public Client client1;
     public Client client2;
+    public Client client;
 
     @BeforeTest
     public void initializeClient1() {
         List<String> phone1 = Arrays.asList("123456789");
-        List<String> email1 = Arrays.asList("alex648@alex648.com");
+        List<String> email1 = Arrays.asList("alex656@alex656.com");
         List<String> allowedPermissions = Arrays.asList("user:user:create:general");
         List<Double> coordinates = Arrays.asList(51.50735, -0.1277582);
         DefaultLocation defaultLocation = new DefaultLocation("Point", coordinates);
-        client1 = new Client("Alex648", "Alexei648", phone1, email1, allowedPermissions, defaultLocation);
+        client1 = new Client("Alex656", "Alexei656", phone1, email1, allowedPermissions, defaultLocation);
     }
 
     @BeforeTest
     public void initializeClient2() {
         List<String> phone2 = Arrays.asList("987654321");
-        List<String> email2 = Arrays.asList("alex748@alex748.com");
+        List<String> email2 = Arrays.asList("alex756@alex756.com");
         List<String> allowedPermissions = Arrays.asList("user:campaign:delete:general");
         List<Double> coordinates = Arrays.asList(51.5055, -0.137777);
         DefaultLocation defaultLocation = new DefaultLocation("Point", coordinates);
-        client2 = new Client("Alex748", "Alexei748", phone2, email2, allowedPermissions, defaultLocation);
+        client2 = new Client("Alex756", "Alexei756", phone2, email2, allowedPermissions, defaultLocation);
     }
 
     @BeforeTest
@@ -44,8 +45,8 @@ public class APIClientTest {
 
     @Test
     public void createClientTest() throws Exception {
-        APIClient.createClient(client1);
-        Client clientFromDB = MongoConnector.getClientFromMongoById(APIClient.getClientId());
+        client = APIClient.createClient(client1);
+        Client clientFromDB = MongoConnector.getClientFromMongoById(client.getId());
         SoftAssert softAssert = new SoftAssert();
         softAssert.assertEquals(client1.getName(), clientFromDB.getName());
         softAssert.assertEquals(client1.getLegalName(), clientFromDB.getLegalName());
@@ -59,9 +60,8 @@ public class APIClientTest {
 
     @Test
     public void getClientByIdTest() throws Exception {
-        APIClient.getClientId();
-        Client clientFromAPI = APIClient.getClientById();
-        Client clientFromDB = MongoConnector.getClientFromMongoById(APIClient.getClientId());
+        Client clientFromAPI = APIClient.getClientById(client.getId());
+        Client clientFromDB = MongoConnector.getClientFromMongoById(client.getId());
         SoftAssert softAssert = new SoftAssert();
         softAssert.assertEquals(clientFromAPI.getName(), clientFromDB.getName());
         softAssert.assertEquals(clientFromAPI.getLegalName(), clientFromDB.getLegalName());
@@ -75,8 +75,8 @@ public class APIClientTest {
 
     @Test
     public void updateClientTest() {
-        APIClient.updateClient(client2);
-        Client clientFromDB =  MongoConnector.getClientFromMongoById(APIClient.getClientId());
+        APIClient.updateClient(client2, client.getId());
+        Client clientFromDB = MongoConnector.getClientFromMongoById(client.getId());
         SoftAssert softAssert = new SoftAssert();
         softAssert.assertEquals(client2.getName(), clientFromDB.getName());
         softAssert.assertEquals(client2.getLegalName(), clientFromDB.getLegalName());

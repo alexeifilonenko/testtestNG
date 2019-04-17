@@ -1,24 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="BookmarkManager">
-    <bookmark url="file://$PROJECT_DIR$/src/main/java/MongoConnector.java" line="18" />
+    <bookmark url="file://$PROJECT_DIR$/src/main/java/MongoConnector.java" line="14" />
   </component>
   <component name="ChangeListManager">
     <list default="true" id="8a9e3792-0244-4b0d-9073-4209ef9a67ea" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/APIClient.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/APIClient.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/Client.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Client.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/DefaultLocation.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/DefaultLocation.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Main.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/MongoConnector.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/MongoConnector.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/test/java/APIClientTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/APIClientTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/APIClient.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/APIClient.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/Client.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/Client.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/DefaultLocation.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/DefaultLocation.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/Main.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/Main.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/MongoConnector.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/MongoConnector.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/inputFiles.lst" beforeDir="false" afterPath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/inputFiles.lst" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/APIClientTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/APIClientTest.class" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
@@ -50,7 +39,7 @@
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
-          <entry key="JAVA" value="3117" />
+          <entry key="JAVA" value="3302" />
           <entry key="XML" value="7" />
         </counts>
       </usages-collector>
@@ -61,7 +50,7 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/Main.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="340">
+            <state relative-caret-position="408">
               <caret line="24" column="8" selection-start-line="24" selection-start-column="8" selection-end-line="24" selection-end-column="8" />
               <folding>
                 <element signature="imports" expanded="true" />
@@ -73,8 +62,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/MongoConnector.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="395">
-              <caret line="42" column="25" selection-start-line="42" selection-start-column="25" selection-end-line="42" selection-end-column="25" />
+            <state relative-caret-position="515">
+              <caret line="34" lean-forward="true" selection-start-line="34" selection-end-line="34" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -85,7 +74,7 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/Client.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1241">
+            <state relative-caret-position="644">
               <caret line="91" column="20" selection-start-line="91" selection-start-column="20" selection-end-line="91" selection-end-column="20" />
               <folding>
                 <element signature="imports" expanded="true" />
@@ -97,12 +86,10 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/main/java/APIClient.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-20">
-              <caret line="16" selection-start-line="16" selection-end-line="16" />
+            <state relative-caret-position="583">
+              <caret line="38" lean-forward="true" selection-start-line="38" selection-end-line="38" />
               <folding>
                 <element signature="imports" expanded="true" />
-                <element signature="e#814#815#0" expanded="true" />
-                <element signature="e#845#846#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -111,8 +98,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/test/java/APIClientTest.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="204">
-              <caret line="12" selection-start-line="12" selection-end-line="12" />
+            <state relative-caret-position="459">
+              <caret line="27" column="60" selection-start-line="27" selection-start-column="60" selection-end-line="27" selection-end-column="60" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -123,7 +110,7 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/DefaultLocation.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="204">
+            <state relative-caret-position="238">
               <caret line="14" column="5" selection-start-line="14" selection-start-column="5" selection-end-line="14" selection-end-column="5" />
               <folding>
                 <element signature="imports" expanded="true" />
@@ -157,12 +144,12 @@
     <option name="CHANGED_PATHS">
       <list>
         <option value="$PROJECT_DIR$/src/main/java/DefaultLocation.java" />
-        <option value="$PROJECT_DIR$/src/main/java/MongoConnector.java" />
         <option value="$PROJECT_DIR$/pom.xml" />
         <option value="$PROJECT_DIR$/src/main/java/Client.java" />
         <option value="$PROJECT_DIR$/src/main/java/Main.java" />
         <option value="$PROJECT_DIR$/src/test/java/APIClientTest.java" />
         <option value="$PROJECT_DIR$/src/main/java/APIClient.java" />
+        <option value="$PROJECT_DIR$/src/main/java/MongoConnector.java" />
       </list>
     </option>
   </component>
@@ -248,7 +235,7 @@
     </panes>
   </component>
   <component name="PropertiesComponent">
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1555507755851" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1555515595174" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$/../testNG_final" />
     <property name="project.structure.last.edited" value="Project" />
     <property name="project.structure.proportion" value="0.15" />
@@ -351,40 +338,39 @@
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="APIClientTest - 2019.04.17 at 15h 59m 46s.xml">
-      <configuration name="APIClientTest" configurationId="TestNG" />
-    </history-entry>
-    <history-entry file="APIClientTest_createClientTest - 2019.04.17 at 16h 00m 52s.xml">
-      <configuration name="APIClientTest.createClientTest" configurationId="TestNG" />
-    </history-entry>
-    <history-entry file="APIClientTest_createClientTest - 2019.04.17 at 16h 03m 22s.xml">
-      <configuration name="APIClientTest.createClientTest" configurationId="TestNG" />
-    </history-entry>
-    <history-entry file="APIClientTest - 2019.04.17 at 16h 04m 15s.xml">
-      <configuration name="APIClientTest" configurationId="TestNG" />
-    </history-entry>
-    <history-entry file="APIClientTest_createClientTest - 2019.04.17 at 16h 09m 17s.xml">
-      <configuration name="APIClientTest.createClientTest" configurationId="TestNG" />
-    </history-entry>
-    <history-entry file="APIClientTest_createClientTest - 2019.04.17 at 16h 11m 19s.xml">
-      <configuration name="APIClientTest.createClientTest" configurationId="TestNG" />
-    </history-entry>
-    <history-entry file="APIClientTest - 2019.04.17 at 16h 12m 04s.xml">
-      <configuration name="APIClientTest" configurationId="TestNG" />
-    </history-entry>
-    <history-entry file="APIClientTest - 2019.04.17 at 16h 15m 05s.xml">
-      <configuration name="APIClientTest" configurationId="TestNG" />
-    </history-entry>
-    <history-entry file="APIClientTest - 2019.04.17 at 16h 18m 38s.xml">
-      <configuration name="APIClientTest" configurationId="TestNG" />
-    </history-entry>
     <history-entry file="APIClientTest - 2019.04.17 at 16h 21m 11s.xml">
+      <configuration name="APIClientTest" configurationId="TestNG" />
+    </history-entry>
+    <history-entry file="APIClientTest - 2019.04.17 at 16h 29m 26s.xml">
+      <configuration name="APIClientTest" configurationId="TestNG" />
+    </history-entry>
+    <history-entry file="APIClientTest_createClientTest - 2019.04.17 at 17h 04m 08s.xml">
+      <configuration name="APIClientTest.createClientTest" configurationId="TestNG" />
+    </history-entry>
+    <history-entry file="APIClientTest_createClientTest - 2019.04.17 at 17h 04m 53s.xml">
+      <configuration name="APIClientTest.createClientTest" configurationId="TestNG" />
+    </history-entry>
+    <history-entry file="APIClientTest - 2019.04.17 at 17h 18m 44s.xml">
+      <configuration name="APIClientTest" configurationId="TestNG" />
+    </history-entry>
+    <history-entry file="APIClientTest - 2019.04.17 at 17h 23m 24s.xml">
+      <configuration name="APIClientTest" configurationId="TestNG" />
+    </history-entry>
+    <history-entry file="APIClientTest - 2019.04.17 at 17h 25m 14s.xml">
+      <configuration name="APIClientTest" configurationId="TestNG" />
+    </history-entry>
+    <history-entry file="APIClientTest - 2019.04.17 at 17h 30m 04s.xml">
+      <configuration name="APIClientTest" configurationId="TestNG" />
+    </history-entry>
+    <history-entry file="APIClientTest - 2019.04.17 at 17h 31m 23s.xml">
+      <configuration name="APIClientTest" configurationId="TestNG" />
+    </history-entry>
+    <history-entry file="APIClientTest - 2019.04.17 at 17h 32m 51s.xml">
       <configuration name="APIClientTest" configurationId="TestNG" />
     </history-entry>
   </component>
   <component name="ToolWindowManager">
-    <frame x="-8" y="-8" width="2576" height="1056" extended-state="6" />
-    <editor active="true" />
+    <frame x="-8" y="-8" width="2576" height="1056" extended-state="7" />
     <layout>
       <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.26788554" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
@@ -395,7 +381,7 @@
       <window_info id="Favorites" order="6" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" weight="0.32925472" />
-      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.19243604" />
+      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.3359288" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.39933258" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -450,26 +436,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/Client.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1241">
-          <caret line="91" column="20" selection-start-line="91" selection-start-column="20" selection-end-line="91" selection-end-column="20" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/DefaultLocation.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="204">
-          <caret line="14" column="5" selection-start-line="14" selection-start-column="5" selection-end-line="14" selection-end-column="5" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/pom.xml">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="901">
@@ -477,19 +443,9 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/MongoConnector.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="395">
-          <caret line="42" column="25" selection-start-line="42" selection-start-column="25" selection-end-line="42" selection-end-column="25" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/Main.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="340">
+        <state relative-caret-position="408">
           <caret line="24" column="8" selection-start-line="24" selection-start-column="8" selection-end-line="24" selection-end-column="8" />
           <folding>
             <element signature="imports" expanded="true" />
@@ -499,8 +455,38 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/test/java/APIClientTest.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="204">
-          <caret line="12" selection-start-line="12" selection-end-line="12" />
+        <state relative-caret-position="459">
+          <caret line="27" column="60" selection-start-line="27" selection-start-column="60" selection-end-line="27" selection-end-column="60" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/MongoConnector.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="515">
+          <caret line="34" lean-forward="true" selection-start-line="34" selection-end-line="34" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/DefaultLocation.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="238">
+          <caret line="14" column="5" selection-start-line="14" selection-start-column="5" selection-end-line="14" selection-end-column="5" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/Client.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="644">
+          <caret line="91" column="20" selection-start-line="91" selection-start-column="20" selection-end-line="91" selection-end-column="20" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
@@ -509,12 +495,10 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/APIClient.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-20">
-          <caret line="16" selection-start-line="16" selection-end-line="16" />
+        <state relative-caret-position="583">
+          <caret line="38" lean-forward="true" selection-start-line="38" selection-end-line="38" />
           <folding>
             <element signature="imports" expanded="true" />
-            <element signature="e#814#815#0" expanded="true" />
-            <element signature="e#845#846#0" expanded="true" />
           </folding>
         </state>
       </provider>

@@ -1,14 +1,10 @@
 import com.mongodb.MongoClient;
 import com.mongodb.MongoCredential;
 import com.mongodb.ServerAddress;
-import com.mongodb.client.MongoDatabase;
 import org.mongodb.morphia.Datastore;
 import org.mongodb.morphia.Morphia;
-import org.testng.Assert;
-import org.testng.annotations.Test;
-
 import java.util.Arrays;
-import java.util.logging.Logger;
+
 
 public class MongoConnector {
     private static final String DB_HOST_1 = "10.10.0.27";
@@ -19,8 +15,6 @@ public class MongoConnector {
     private static final String DB_SOURCE = "test03-platform";
     private static final String DB_PASSWORD = "SBUhX8Kmpcr7T";
     private static Datastore datastore;
-    private Client mongoClient;
-
 
     public static Datastore connectToMongo() {
 
@@ -37,7 +31,6 @@ public class MongoConnector {
                 .map(Client.class)
                 .createDatastore(mongoClient, DB_SOURCE);
         return datastore;
-
     }
 
     public static Client getClientFromMongoById(String clientId) {
