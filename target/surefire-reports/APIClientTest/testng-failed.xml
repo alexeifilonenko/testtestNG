@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite verbose="0" name="Failed suite [APIClientTest]">
+  <test thread-count="5" verbose="0" name="Command line test(failed)">
+    <classes>
+      <class name="APIClientTest">
+        <methods>
+          <include name="getClientByIdTest"/>
+          <include name="updateClientTest"/>
+          <include name="createClientTest"/>
+        </methods>
+      </class> <!-- APIClientTest -->
+    </classes>
+  </test> <!-- Command line test(failed) -->
+</suite> <!-- Failed suite [APIClientTest] -->

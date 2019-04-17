@@ -10,7 +10,9 @@ public class DefaultLocation {
         this.type = type;
         this.coordinates = coordinates;
     }
-    public DefaultLocation() {}
+
+    public DefaultLocation() {
+    }
 
     public String getType() {
         return type;
