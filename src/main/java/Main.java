@@ -19,10 +19,10 @@ public class Main {
         List<Double> coordinates = Arrays.asList(51.5073, -0.127758);
         DefaultLocation defaultLocation = new DefaultLocation("Point", coordinates);
 
-        Client client1 = new Client("Alex574", "Alexei574", phone1, email1, allowedPermissions, defaultLocation);
-        Client client2 = new Client("Alex701", "Alexei701", phone2, email2, allowedPermissions, defaultLocation);
+       // Client client1 = new Client("Alex574", "Alexei574", phone1, email1, allowedPermissions, defaultLocation);
+       // Client client2 = new Client("Alex701", "Alexei701", phone2, email2, allowedPermissions, defaultLocation);
 
-        apiClient.createClient(client1);
+        //apiClient.createClient(client1);
 
         //System.out.println(apiClient.getClientById().get_id() + apiClient.getClientById().getName());
         //apiClient.updateClient(client2);
