@@ -2,36 +2,36 @@
 <testng-results skipped="0" failed="0" ignored="0" total="3" passed="3">
   <reporter-output>
   </reporter-output>
-  <suite name="Suite1" duration-ms="8410" started-at="2019-04-19T13:09:29Z" finished-at="2019-04-19T13:09:37Z">
+  <suite name="Suite1" duration-ms="5922" started-at="2019-04-19T13:34:18Z" finished-at="2019-04-19T13:34:24Z">
     <groups>
     </groups>
-    <test name="Nopackage" duration-ms="8410" started-at="2019-04-19T13:09:29Z" finished-at="2019-04-19T13:09:37Z">
+    <test name="Nopackage" duration-ms="5922" started-at="2019-04-19T13:34:18Z" finished-at="2019-04-19T13:34:24Z">
       <class name="APIClientTest">
-        <test-method status="PASS" signature="connectToMongo()[pri:0, instance:APIClientTest@25359ed8]" name="connectToMongo" is-config="true" duration-ms="508" started-at="2019-04-19T13:09:29Z" finished-at="2019-04-19T13:09:29Z">
+        <test-method status="PASS" signature="connectToMongo()[pri:0, instance:APIClientTest@25359ed8]" name="connectToMongo" is-config="true" duration-ms="556" started-at="2019-04-19T13:34:18Z" finished-at="2019-04-19T13:34:18Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- connectToMongo -->
-        <test-method status="PASS" signature="getToken()[pri:0, instance:APIClientTest@25359ed8]" name="getToken" is-config="true" duration-ms="2238" started-at="2019-04-19T13:09:29Z" finished-at="2019-04-19T13:09:32Z">
+        <test-method status="PASS" signature="getToken()[pri:0, instance:APIClientTest@25359ed8]" name="getToken" is-config="true" duration-ms="2197" started-at="2019-04-19T13:34:18Z" finished-at="2019-04-19T13:34:20Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- getToken -->
-        <test-method status="PASS" signature="initializeClient1()[pri:0, instance:APIClientTest@25359ed8]" name="initializeClient1" is-config="true" duration-ms="1" started-at="2019-04-19T13:09:32Z" finished-at="2019-04-19T13:09:32Z">
+        <test-method status="PASS" signature="initializeClient1()[pri:0, instance:APIClientTest@25359ed8]" name="initializeClient1" is-config="true" duration-ms="1" started-at="2019-04-19T13:34:20Z" finished-at="2019-04-19T13:34:20Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- initializeClient1 -->
-        <test-method status="PASS" signature="initializeClient2()[pri:0, instance:APIClientTest@25359ed8]" name="initializeClient2" is-config="true" duration-ms="0" started-at="2019-04-19T13:09:32Z" finished-at="2019-04-19T13:09:32Z">
+        <test-method status="PASS" signature="initializeClient2()[pri:0, instance:APIClientTest@25359ed8]" name="initializeClient2" is-config="true" duration-ms="0" started-at="2019-04-19T13:34:20Z" finished-at="2019-04-19T13:34:20Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- initializeClient2 -->
-        <test-method status="PASS" signature="createClientTest()[pri:0, instance:APIClientTest@25359ed8]" name="createClientTest" duration-ms="2209" started-at="2019-04-19T13:09:32Z" finished-at="2019-04-19T13:09:34Z">
+        <test-method status="PASS" signature="createClientTest()[pri:0, instance:APIClientTest@25359ed8]" name="createClientTest" duration-ms="1869" started-at="2019-04-19T13:34:20Z" finished-at="2019-04-19T13:34:22Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- createClientTest -->
-        <test-method status="PASS" signature="getClientByIdTest()[pri:0, instance:APIClientTest@25359ed8]" name="getClientByIdTest" duration-ms="1062" started-at="2019-04-19T13:09:34Z" finished-at="2019-04-19T13:09:35Z">
+        <test-method status="PASS" signature="getClientByIdTest()[pri:0, instance:APIClientTest@25359ed8]" name="getClientByIdTest" duration-ms="303" started-at="2019-04-19T13:34:22Z" finished-at="2019-04-19T13:34:23Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- getClientByIdTest -->
-        <test-method status="PASS" signature="updateClientTest()[pri:0, instance:APIClientTest@25359ed8]" name="updateClientTest" duration-ms="2378" started-at="2019-04-19T13:09:35Z" finished-at="2019-04-19T13:09:37Z">
+        <test-method status="PASS" signature="updateClientTest()[pri:0, instance:APIClientTest@25359ed8]" name="updateClientTest" duration-ms="977" started-at="2019-04-19T13:34:23Z" finished-at="2019-04-19T13:34:24Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- updateClientTest -->

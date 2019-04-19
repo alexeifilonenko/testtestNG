@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report.xsd" name="TestSuite" time="11.308" tests="3" errors="0" skipped="0" failures="0">
+<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report.xsd" name="TestSuite" time="8.899" tests="3" errors="0" skipped="0" failures="0">
   <properties>
     <property name="sun.desktop" value="windows"/>
     <property name="awt.toolkit" value="sun.awt.windows.WToolkit"/>
@@ -18,7 +18,7 @@
     <property name="user.country" value="RU"/>
     <property name="sun.java.launcher" value="SUN_STANDARD"/>
     <property name="sun.boot.library.path" value="C:\Program Files\Java\jdk1.8.0_191\jre\bin"/>
-    <property name="sun.java.command" value="C:\Users\A412F~1.FIL\AppData\Local\Temp\surefire9070462725909961572\surefirebooter6926134436735885365.jar C:\Users\a.filonenko\AppData\Local\Temp\surefire9070462725909961572 2019-04-19T16-09-25_336-jvmRun1 surefire5356873486665455488tmp surefire_01271867217033449857tmp"/>
+    <property name="sun.java.command" value="C:\Users\A412F~1.FIL\AppData\Local\Temp\surefire2373535455572097650\surefirebooter2905954493359992710.jar C:\Users\a.filonenko\AppData\Local\Temp\surefire2373535455572097650 2019-04-19T16-34-14_288-jvmRun1 surefire6077028145915288598tmp surefire_02641687135406106134tmp"/>
     <property name="surefire.test.class.path" value="C:\Users\a.filonenko\IdeaProjects\testtestNG\target\test-classes;C:\Users\a.filonenko\IdeaProjects\testtestNG\target\classes;C:\Users\a.filonenko\.m2\repository\org\testng\testng\6.14.3\testng-6.14.3.jar;C:\Users\a.filonenko\.m2\repository\com\beust\jcommander\1.72\jcommander-1.72.jar;C:\Users\a.filonenko\.m2\repository\org\apache-extras\beanshell\bsh\2.0b6\bsh-2.0b6.jar;C:\Users\a.filonenko\.m2\repository\org\mongodb\morphia\morphia\1.3.2\morphia-1.3.2.jar;C:\Users\a.filonenko\.m2\repository\org\mongodb\mongo-java-driver\3.4.0\mongo-java-driver-3.4.0.jar;C:\Users\a.filonenko\.m2\repository\cglib\cglib-nodep\2.2.2\cglib-nodep-2.2.2.jar;C:\Users\a.filonenko\.m2\repository\com\thoughtworks\proxytoys\proxytoys\1.0\proxytoys-1.0.jar;C:\Users\a.filonenko\.m2\repository\io\rest-assured\rest-assured\3.3.0\rest-assured-3.3.0.jar;C:\Users\a.filonenko\.m2\repository\org\codehaus\groovy\groovy\2.4.15\groovy-2.4.15.jar;C:\Users\a.filonenko\.m2\repository\org\codehaus\groovy\groovy-xml\2.4.15\groovy-xml-2.4.15.jar;C:\Users\a.filonenko\.m2\repository\org\apache\httpcomponents\httpclient\4.5.3\httpclient-4.5.3.jar;C:\Users\a.filonenko\.m2\repository\org\apache\httpcomponents\httpcore\4.4.6\httpcore-4.4.6.jar;C:\Users\a.filonenko\.m2\repository\commons-logging\commons-logging\1.2\commons-logging-1.2.jar;C:\Users\a.filonenko\.m2\repository\commons-codec\commons-codec\1.9\commons-codec-1.9.jar;C:\Users\a.filonenko\.m2\repository\org\apache\httpcomponents\httpmime\4.5.3\httpmime-4.5.3.jar;C:\Users\a.filonenko\.m2\repository\org\hamcrest\hamcrest-core\1.3\hamcrest-core-1.3.jar;C:\Users\a.filonenko\.m2\repository\org\hamcrest\hamcrest-library\1.3\hamcrest-library-1.3.jar;C:\Users\a.filonenko\.m2\repository\org\ccil\cowan\tagsoup\tagsoup\1.2.1\tagsoup-1.2.1.jar;C:\Users\a.filonenko\.m2\repository\io\rest-assured\xml-path\3.3.0\xml-path-3.3.0.jar;C:\Users\a.filonenko\.m2\repository\org\apache\commons\commons-lang3\3.4\commons-lang3-3.4.jar;C:\Users\a.filonenko\.m2\repository\javax\xml\bind\jaxb-api\2.2.12\jaxb-api-2.2.12.jar;C:\Users\a.filonenko\.m2\repository\com\sun\xml\bind\jaxb-osgi\2.2.10\jaxb-osgi-2.2.10.jar;C:\Users\a.filonenko\.m2\repository\org\apache\sling\org.apache.sling.javax.activation\0.1.0\org.apache.sling.javax.activation-0.1.0.jar;C:\Users\a.filonenko\.m2\repository\javax\activation\activation\1.1.1\activation-1.1.1.jar;C:\Users\a.filonenko\.m2\repository\io\rest-assured\json-path\3.3.0\json-path-3.3.0.jar;C:\Users\a.filonenko\.m2\repository\org\codehaus\groovy\groovy-json\2.4.15\groovy-json-2.4.15.jar;C:\Users\a.filonenko\.m2\repository\io\rest-assured\rest-assured-common\3.3.0\rest-assured-common-3.3.0.jar;C:\Users\a.filonenko\.m2\repository\org\json\json\20180813\json-20180813.jar;C:\Users\a.filonenko\.m2\repository\com\google\code\gson\gson\2.8.5\gson-2.8.5.jar;C:\Users\a.filonenko\.m2\repository\org\mongodb\mongodb-driver\3.10.1\mongodb-driver-3.10.1.jar;C:\Users\a.filonenko\.m2\repository\org\mongodb\bson\3.10.1\bson-3.10.1.jar;C:\Users\a.filonenko\.m2\repository\org\mongodb\mongodb-driver-core\3.10.1\mongodb-driver-core-3.10.1.jar;C:\Users\a.filonenko\.m2\repository\org\apache\commons\commons-collections4\4.3\commons-collections4-4.3.jar;"/>
     <property name="sun.cpu.endian" value="little"/>
     <property name="user.home" value="C:\Users\a.filonenko"/>
@@ -31,7 +31,7 @@
     <property name="java.vm.specification.vendor" value="Oracle Corporation"/>
     <property name="java.specification.name" value="Java Platform API Specification"/>
     <property name="java.awt.graphicsenv" value="sun.awt.Win32GraphicsEnvironment"/>
-    <property name="surefire.real.class.path" value="C:\Users\A412F~1.FIL\AppData\Local\Temp\surefire9070462725909961572\surefirebooter6926134436735885365.jar"/>
+    <property name="surefire.real.class.path" value="C:\Users\A412F~1.FIL\AppData\Local\Temp\surefire2373535455572097650\surefirebooter2905954493359992710.jar"/>
     <property name="sun.boot.class.path" value="C:\Program Files\Java\jdk1.8.0_191\jre\lib\resources.jar;C:\Program Files\Java\jdk1.8.0_191\jre\lib\rt.jar;C:\Program Files\Java\jdk1.8.0_191\jre\lib\sunrsasign.jar;C:\Program Files\Java\jdk1.8.0_191\jre\lib\jsse.jar;C:\Program Files\Java\jdk1.8.0_191\jre\lib\jce.jar;C:\Program Files\Java\jdk1.8.0_191\jre\lib\charsets.jar;C:\Program Files\Java\jdk1.8.0_191\jre\lib\jfr.jar;C:\Program Files\Java\jdk1.8.0_191\jre\classes"/>
     <property name="user.script" value=""/>
     <property name="sun.management.compiler" value="HotSpot 64-Bit Tiered Compilers"/>
@@ -61,7 +61,7 @@
     <property name="sun.io.unicode.encoding" value="UnicodeLittle"/>
     <property name="java.class.version" value="52.0"/>
   </properties>
-  <testcase name="createClientTest" classname="APIClientTest" time="2.211"/>
-  <testcase name="getClientByIdTest" classname="APIClientTest" time="1.061"/>
-  <testcase name="updateClientTest" classname="APIClientTest" time="2.377"/>
+  <testcase name="createClientTest" classname="APIClientTest" time="1.88"/>
+  <testcase name="getClientByIdTest" classname="APIClientTest" time="0.281"/>
+  <testcase name="updateClientTest" classname="APIClientTest" time="0.978"/>
 </testsuite>

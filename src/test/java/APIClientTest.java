@@ -8,18 +8,20 @@ import java.util.List;
 
 public class APIClientTest {
 
-    private static final String NAME_CLIENT_1 = "Alex6731";
-    private static final String LEGALNAME_CLIENT_1 = "Alexei6731";
+    private static final String USERNAME = "a.filonenko@hypervsn.com";
+    private static final String PASSWORD = "";
+    private static final String NAME_CLIENT_1 = "Alex674";
+    private static final String LEGALNAME_CLIENT_1 = "Alexei674";
     private static final String PHONE_CLIENT_1 = "+123456789";
-    private static final String EMAIL_CLIENT_1 = "alex6731@alex6731.com";
+    private static final String EMAIL_CLIENT_1 = "alex674@alex674.com";
     private static final String PERMISSIONS_CLIENT_1 = "user:user:create:general";
     private static final Double COORDINATE_1_CLIENT_1 = 51.50735;
     private static final Double COORDINATE_2_CLIENT_1 = -0.1277582;
     private static final String TYPE_LOCATION_CLIENT_1 = "Point";
-    private static final String NAME_CLIENT_2 = "Alex7731";
-    private static final String LEGALNAME_CLIENT_2 = "Alexei7731";
+    private static final String NAME_CLIENT_2 = "Alex774";
+    private static final String LEGALNAME_CLIENT_2 = "Alexei774";
     private static final String PHONE_CLIENT_2 = "+987654321";
-    private static final String EMAIL_CLIENT_2 = "alex7731@alex7731.com";
+    private static final String EMAIL_CLIENT_2 = "alex774@alex774.com";
     private static final String PERMISSIONS_CLIENT_2 = "user:campaign:delete:general";
     private static final Double COORDINATE_1_CLIENT_2 = 51.5055;
     private static final Double COORDINATE_2_CLIENT_2 = -0.137777;
@@ -28,6 +30,7 @@ public class APIClientTest {
     public Client client1;
     public Client client2;
     public Client client;
+    public String sessionToken;
 
     @BeforeTest
     public void initializeClient1() {
@@ -66,7 +69,7 @@ public class APIClientTest {
 
     @BeforeTest
     public void getToken() {
-        APIClient.putSessionToken();
+        sessionToken = APIClient.putSessionToken(USERNAME, PASSWORD);
     }
 
     @BeforeTest
@@ -76,7 +79,7 @@ public class APIClientTest {
 
     @Test
     public void createClientTest() throws Exception {
-        client = APIClient.createClient(client1);
+        client = APIClient.createClient(client1, sessionToken);
         Client clientFromDB = MongoConnector.getClientById(client.getId());
         SoftAssert softAssert = new SoftAssert();
         softAssert.assertEquals(client1.getName(), clientFromDB.getName());
@@ -92,7 +95,7 @@ public class APIClientTest {
 
     @Test
     public void getClientByIdTest() throws Exception {
-        Client clientFromAPI = APIClient.getClientById(client.getId());
+        Client clientFromAPI = APIClient.getClientById(client.getId(), sessionToken);
         Client clientFromDB = MongoConnector.getClientById(client.getId());
         SoftAssert softAssert = new SoftAssert();
         softAssert.assertEquals(clientFromAPI.getName(), clientFromDB.getName());
@@ -108,7 +111,7 @@ public class APIClientTest {
 
     @Test
     public void updateClientTest() {
-        APIClient.updateClient(client2, client.getId());
+        APIClient.updateClient(client2, client.getId(), sessionToken);
         Client clientFromDB = MongoConnector.getClientById(client.getId());
         SoftAssert softAssert = new SoftAssert();
         softAssert.assertEquals(client2.getName(), clientFromDB.getName());
