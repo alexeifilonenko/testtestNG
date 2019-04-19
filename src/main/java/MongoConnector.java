@@ -13,7 +13,7 @@ public class MongoConnector {
     private static final int DB_PORT = 27017;
     private static final String DB_USER = "platform";
     private static final String DB_SOURCE = "test03-platform";
-    private static final String DB_PASSWORD = "SBUhX8Kmpcr7T";
+    private static final String DB_PASSWORD = "ST";
     private static Datastore datastore;
 
     public static Datastore connectToMongo() {
@@ -33,7 +33,7 @@ public class MongoConnector {
         return datastore;
     }
 
-    public static Client getClientFromMongoById(String clientId) {
+    public static Client getClientById(String clientId) {
         Client clientFromMongo = datastore.find(Client.class)
                 .field("_id")
                 .equal(clientId)

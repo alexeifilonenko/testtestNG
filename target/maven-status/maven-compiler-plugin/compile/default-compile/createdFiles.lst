@@ -1,4 +1,7 @@
 Main.class
-APIClient.class
+Client$Builder.class
 Client.class
+DefaultLocation$Builder.class
+APIClient.class
 DefaultLocation.class
+MongoConnector.class

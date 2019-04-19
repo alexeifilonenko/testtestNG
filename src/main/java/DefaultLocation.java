@@ -6,11 +6,6 @@ public class DefaultLocation {
     private String type;
     private List<Double> coordinates;
 
-    public DefaultLocation(String type, List<Double> coordinates) {
-        this.type = type;
-        this.coordinates = coordinates;
-    }
-
     public DefaultLocation() {
     }
 

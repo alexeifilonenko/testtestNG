@@ -8,6 +8,23 @@ import java.util.List;
 
 public class APIClientTest {
 
+    private static final String NAME_CLIENT_1 = "Alex6731";
+    private static final String LEGALNAME_CLIENT_1 = "Alexei6731";
+    private static final String PHONE_CLIENT_1 = "+123456789";
+    private static final String EMAIL_CLIENT_1 = "alex6731@alex6731.com";
+    private static final String PERMISSIONS_CLIENT_1 = "user:user:create:general";
+    private static final Double COORDINATE_1_CLIENT_1 = 51.50735;
+    private static final Double COORDINATE_2_CLIENT_1 = -0.1277582;
+    private static final String TYPE_LOCATION_CLIENT_1 = "Point";
+    private static final String NAME_CLIENT_2 = "Alex7731";
+    private static final String LEGALNAME_CLIENT_2 = "Alexei7731";
+    private static final String PHONE_CLIENT_2 = "+987654321";
+    private static final String EMAIL_CLIENT_2 = "alex7731@alex7731.com";
+    private static final String PERMISSIONS_CLIENT_2 = "user:campaign:delete:general";
+    private static final Double COORDINATE_1_CLIENT_2 = 51.5055;
+    private static final Double COORDINATE_2_CLIENT_2 = -0.137777;
+    private static final String TYPE_LOCATION_CLIENT_2 = "Point";
+
     public Client client1;
     public Client client2;
     public Client client;
@@ -16,16 +33,16 @@ public class APIClientTest {
     public void initializeClient1() {
 
         DefaultLocation defaultLocation = new DefaultLocation.Builder()
-                .setCoordinates(Arrays.asList(51.50735, -0.1277582))
-                .setType("Point")
+                .setCoordinates(Arrays.asList(COORDINATE_1_CLIENT_1, COORDINATE_2_CLIENT_1))
+                .setType(TYPE_LOCATION_CLIENT_1)
                 .build();
 
         client1 = new Client.Builder()
-                .setName("Alex662")
-                .setLegalName("Alexei662")
-                .setPhone(Arrays.asList("123456789"))
-                .setEmail(Arrays.asList("alex662@alex662.com"))
-                .setAllowedPermissions(Arrays.asList("user:user:create:general"))
+                .setName(NAME_CLIENT_1)
+                .setLegalName(LEGALNAME_CLIENT_1)
+                .setPhone(Arrays.asList(PHONE_CLIENT_1))
+                .setEmail(Arrays.asList(EMAIL_CLIENT_1))
+                .setAllowedPermissions(Arrays.asList(PERMISSIONS_CLIENT_1))
                 .setDefaultLocation(defaultLocation)
                 .build();
     }
@@ -33,16 +50,16 @@ public class APIClientTest {
     @BeforeTest
     public void initializeClient2() {
         DefaultLocation defaultLocation = new DefaultLocation.Builder()
-                .setCoordinates(Arrays.asList(51.5055, -0.137777))
-                .setType("Point")
+                .setCoordinates(Arrays.asList(COORDINATE_1_CLIENT_2, COORDINATE_2_CLIENT_2))
+                .setType(TYPE_LOCATION_CLIENT_2)
                 .build();
 
         client2 = new Client.Builder()
-                .setName("Alex762")
-                .setLegalName("Alexei762")
-                .setPhone(Arrays.asList("987654321"))
-                .setEmail(Arrays.asList("alex762@alex762.com"))
-                .setAllowedPermissions(Arrays.asList("user:campaign:delete:general"))
+                .setName(NAME_CLIENT_2)
+                .setLegalName(LEGALNAME_CLIENT_2)
+                .setPhone(Arrays.asList(PHONE_CLIENT_2))
+                .setEmail(Arrays.asList(EMAIL_CLIENT_2))
+                .setAllowedPermissions(Arrays.asList(PERMISSIONS_CLIENT_2))
                 .setDefaultLocation(defaultLocation)
                 .build();
     }
@@ -60,7 +77,7 @@ public class APIClientTest {
     @Test
     public void createClientTest() throws Exception {
         client = APIClient.createClient(client1);
-        Client clientFromDB = MongoConnector.getClientFromMongoById(client.getId());
+        Client clientFromDB = MongoConnector.getClientById(client.getId());
         SoftAssert softAssert = new SoftAssert();
         softAssert.assertEquals(client1.getName(), clientFromDB.getName());
         softAssert.assertEquals(client1.getLegalName(), clientFromDB.getLegalName());
@@ -76,7 +93,7 @@ public class APIClientTest {
     @Test
     public void getClientByIdTest() throws Exception {
         Client clientFromAPI = APIClient.getClientById(client.getId());
-        Client clientFromDB = MongoConnector.getClientFromMongoById(client.getId());
+        Client clientFromDB = MongoConnector.getClientById(client.getId());
         SoftAssert softAssert = new SoftAssert();
         softAssert.assertEquals(clientFromAPI.getName(), clientFromDB.getName());
         softAssert.assertEquals(clientFromAPI.getLegalName(), clientFromDB.getLegalName());
@@ -92,7 +109,7 @@ public class APIClientTest {
     @Test
     public void updateClientTest() {
         APIClient.updateClient(client2, client.getId());
-        Client clientFromDB = MongoConnector.getClientFromMongoById(client.getId());
+        Client clientFromDB = MongoConnector.getClientById(client.getId());
         SoftAssert softAssert = new SoftAssert();
         softAssert.assertEquals(client2.getName(), clientFromDB.getName());
         softAssert.assertEquals(client2.getLegalName(), clientFromDB.getLegalName());
